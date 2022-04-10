@@ -1,42 +1,47 @@
-/*
-коментарий
-*/
-p{
-    font-size: 20px; /*размер шрифта*/
-    font-family: 'Courier New', Courier, monospace; /*Шрифт*/
-    font-weight: bold; /*толщина шрифта*/
-    font-style: italic; /*курсив и тд*/
-    font-stretch: semi-condensed; /**/
-    color: #ff0000; /*цвет*/
-    background-color: black; /*цвет фона шрифта*/
-    text-transform: lowercase; /*весь текст в нижнем регистре*/
-    letter-spacing: 5px; /*растояние между букв*/
-    word-spacing: 10px; /*растояние между словами*/
-    /*opacity: 0.5; /*прозрачность для всего элемента*/
+.cardContainer{
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    box-sizing: border-box;
+    
 }
 
-h1{
-    color: blue;
-}
-
-h3{
-    color: darkgreen;
-}
-
-.mark_for_paragraph{
-    background-color: rgb(16, 160, 52);
-    font-weight: bold;
-}
-
-.bigsize_for_paragraph{
-    font-size: 30px;
-}
-
-.text_to_uppercase{
-    text-transform: uppercase;
-}
-
-.img_class{
-    height: 200px;
+.photoContainer{
+    border: 1px solid gray;
+    border-radius: 100px;
+    background-image: url('https://png.pngtree.com/element_our/png_detail/20181206/users-vector-icon-png_260862.jpg');
     width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 10px;
+    margin: auto;
+}
+
+.infoContaner{
+    border: 1px solid gray;
+}
+
+.userName{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.userJob{
+    font-size: 25px;
+    color: rgba(27, 26, 26, 0.877);
+    text-align: center;
+}
+
+.buttonStyle{
+    border: 1px solid black;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 161);
+    text-align: center;
 }
