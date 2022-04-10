@@ -2,15 +2,41 @@
 коментарий
 */
 p{
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px; /*размер шрифта*/
+    font-family: 'Courier New', Courier, monospace; /*Шрифт*/
+    font-weight: bold; /*толщина шрифта*/
+    font-style: italic; /*курсив и тд*/
+    font-stretch: semi-condensed; /**/
+    color: #ff0000; /*цвет*/
+    background-color: black; /*цвет фона шрифта*/
+    text-transform: lowercase; /*весь текст в нижнем регистре*/
+    letter-spacing: 5px; /*растояние между букв*/
+    word-spacing: 10px; /*растояние между словами*/
+    /*opacity: 0.5; /*прозрачность для всего элемента*/
+}
+
+h1{
+    color: blue;
+}
+
+h3{
+    color: darkgreen;
+}
+
+.mark_for_paragraph{
+    background-color: rgb(16, 160, 52);
     font-weight: bold;
-    font-style: italic;
-    font-stretch: semi-condensed;
-    color: #ff0000;
-    background-color: black;
-    text-transform: lowercase;
-    letter-spacing: 5px;
-    word-spacing: 10px;
-    opacity: 0.5;
+}
+
+.bigsize_for_paragraph{
+    font-size: 30px;
+}
+
+.text_to_uppercase{
+    text-transform: uppercase;
+}
+
+.img_class{
+    height: 200px;
+    width: 200px;
 }
